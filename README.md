@@ -39,8 +39,9 @@ That paper describes the case exactly as the one that had to be implemented here
 
 It consists of the following layers:
 
-Lambda | Normalization
+Layer | Description
 ---| ---
+Lambda | Normalization
 Crop2D | Crops image to region of interest
 Conv2D | 24 Filters, filter size: 5, stride: 2x2, RELU
 Conv2D | 36 Filters, filter size: 5, stride: 2x2, RELU
@@ -111,4 +112,4 @@ The effect can be seen here: [Track one](run1.mp4), [Track two](run2.mp4)
  
 #### Further work
 While this is was not checked in the project I think it is very worth analyzing how much using Computer Vision techniques to preprocess the data would improve the network.
-Promising idea is to use warp-transform to convert image to birds view, although as with many other techniques in deep learning, the final result is unknown without trying.. 
+Promising idea is to use warp-transform to convert image to birds view, although as with many other techniques in deep learning, the final result is unknown without trying.
